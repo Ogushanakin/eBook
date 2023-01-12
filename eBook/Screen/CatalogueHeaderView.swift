@@ -24,6 +24,19 @@ class CatalogueHeaderView: UIView {
         bookImage.anchor(top: view.topAnchor, left: view.leftAnchor,
                          bottom: view.bottomAnchor, right: view.rightAnchor)
         
+        let backButton = UIButton()
+        backButton.setImage(UIImage(systemName: "chevron.backward"), for: .normal)
+        backButton.tintColor = #colorLiteral(red: 0.1176470588, green: 0.1176470588, blue: 0.1176470588, alpha: 1)
+        
+        view.addSubview(backButton)
+        backButton.anchor(top: view.topAnchor, left: view.leftAnchor, paddingTop: 60, paddingLeft: 14)
+        
+        let optionsButton = UIButton()
+        optionsButton.setImage(UIImage(systemName: "line.horizontal.3"), for: .normal)
+        optionsButton.tintColor = #colorLiteral(red: 0.1176470588, green: 0.1176470588, blue: 0.1176470588, alpha: 1)
+        
+        view.addSubview(optionsButton)
+        optionsButton.anchor(top: view.topAnchor, right: view.rightAnchor, paddingTop: 60, paddingRight: 14)
         
         return view
     }()

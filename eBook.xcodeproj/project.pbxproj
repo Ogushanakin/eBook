@@ -18,6 +18,8 @@
 		71187FA0296EB0F300D86DDE /* CatalogueHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71187F9F296EB0F300D86DDE /* CatalogueHeaderView.swift */; };
 		71187FA2296EB34700D86DDE /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71187FA1296EB34700D86DDE /* Extension.swift */; };
 		71187FA4296ECDCA00D86DDE /* CatalogueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71187FA3296ECDCA00D86DDE /* CatalogueCell.swift */; };
+		71F03348296FF00D005CA5BA /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F03347296FF00D005CA5BA /* ProfileController.swift */; };
+		71F0334A296FF038005CA5BA /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F03349296FF038005CA5BA /* SearchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		71187F9F296EB0F300D86DDE /* CatalogueHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueHeaderView.swift; sourceTree = "<group>"; };
 		71187FA1296EB34700D86DDE /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		71187FA3296ECDCA00D86DDE /* CatalogueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueCell.swift; sourceTree = "<group>"; };
+		71F03347296FF00D005CA5BA /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		71F03349296FF038005CA5BA /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		71187F97296EAED100D86DDE /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				71F03347296FF00D005CA5BA /* ProfileController.swift */,
+				71F03349296FF038005CA5BA /* SearchController.swift */,
 				71187F99296EAF1600D86DDE /* MainTabBar */,
 				71187F9C296EAF8600D86DDE /* CatalogueScreen */,
 			);
@@ -186,10 +192,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				71187F9E296EAF9E00D86DDE /* CatalogueController.swift in Sources */,
+				71F0334A296FF038005CA5BA /* SearchController.swift in Sources */,
 				71187FA0296EB0F300D86DDE /* CatalogueHeaderView.swift in Sources */,
 				71187FA2296EB34700D86DDE /* Extension.swift in Sources */,
 				71187FA4296ECDCA00D86DDE /* CatalogueCell.swift in Sources */,
 				71187F88296EAEB200D86DDE /* ViewController.swift in Sources */,
+				71F03348296FF00D005CA5BA /* ProfileController.swift in Sources */,
 				71187F84296EAEB200D86DDE /* AppDelegate.swift in Sources */,
 				71187F9B296EAF5500D86DDE /* MainTabBarController.swift in Sources */,
 				71187F86296EAEB200D86DDE /* SceneDelegate.swift in Sources */,
