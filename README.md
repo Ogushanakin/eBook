@@ -2,4 +2,5 @@
 
 ## ProgrammaticUI
 
-<img width="340" alt="eBook" src="https://user-images.githubusercontent.com/55364051/212544771-ffc26779-23b2-4ff5-bf3d-c5d11dcc4870.png">
+<img width="482" alt="eBook" src="https://user-images.githubusercontent.com/55364051/212544904-4728de97-f287-425b-985e-eba9a5066276.png">
+
